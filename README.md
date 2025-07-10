@@ -1,8 +1,3 @@
-Berikut isi lengkap file `README.md` yang bisa langsung kamu **copy-paste** dan simpan di direktori utama proyek kamu (`tugas-data-mining-anggur/README.md`):
-
----
-
-```markdown
 # 🍇 Tugas Data Mining - Klasifikasi Kualitas Anggur Merah
 
 Proyek ini merupakan implementasi algoritma **Decision Tree Classifier** menggunakan Python untuk memprediksi kualitas anggur merah berdasarkan fitur-fitur kimia. Dataset yang digunakan berasal dari **UCI Machine Learning Repository**.
@@ -11,16 +6,18 @@ Proyek ini merupakan implementasi algoritma **Decision Tree Classifier** menggun
 
 ## 📁 Struktur Folder
 
-```
+tugas-data-mining-anggur
 
-tugas-data-mining-anggur/
-├── Data/
-│   └── winequality-red.csv      # Dataset anggur merah
-├── src/
-│   └── main.py                  # Program utama Python
-├── README.md                    # Penjelasan proyek
+├── Data
 
-```
+│ └── winequality-red.csv # Dataset anggur merah
+
+├── src
+
+│ └── main.py # Program utama Python
+
+├── README.md # Penjelasan proyek
+
 
 ---
 
@@ -62,12 +59,10 @@ Langkah-langkah yang dilakukan di `main.py`:
 
 Contoh hasil setelah dijalankan:
 
-```
-
 Data berhasil dibaca!
+
 Akurasi model: 0.56
 
-````
 
 Akurasi bisa berubah tergantung hasil training.
 
@@ -91,35 +86,26 @@ Beberapa visualisasi yang ditampilkan:
 
 ```bash
 pip install pandas matplotlib seaborn scikit-learn
-````
-
-### 2. Jalankan program:
-
-```bash
 cd src
 python main.py
-```
 
 Visualisasi akan muncul dalam jendela grafik (matplotlib/seaborn).
+```
 
----
+✍️ Pembuat
 
-## ✍️ Pembuat
+Nama            : Mohammad Yoga Firnanda
 
-* **Nama:** Mohammad Yoga Firnanda
-* **NIM:** *221080200126*
-* **Tugas:** Project Data Mining untuk Memenuhi Ujian Akhir Semester
-* **Dosen Pengampu:** *Mochamad Alfan Rosid, S.Kom., M.Kom., Dr.*
+NIM             : 221080200126
 
----
+Tugas           : Project Data Mining untuk Memenuhi Ujian Akhir Semester
 
-## 🗃️ Referensi
+Dosen Pengampu  : Mochamad Alfan Rosid, S.Kom., M.Kom., Dr.
 
-* [UCI ML Repository - Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
-* [Scikit-learn Documentation](https://scikit-learn.org/stable/)
 
-````
+Referensi
 
----
+UCI ML Repository - Wine Quality Dataset
 
+Scikit-learn Documentation
 
